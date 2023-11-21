@@ -16,6 +16,7 @@ import {
   import { useNavigate } from "react-router-dom";
   import { SearchContext } from "../../context/SearchContext";
   import { AuthContext } from "../../context/AuthContext";
+  import { Link } from 'react-router-dom'
   
   const Header = ({ type }) => {
     const [destination, setDestination] = useState("");
@@ -62,22 +63,28 @@ import {
           }
         >
           <div className="headerList">
+            
             <div className="headerListItem active">
+            
               <FontAwesomeIcon icon={faBed} />
               <span>Stays</span>
+              
             </div>
+            
             <div className="headerListItem">
+            <Link to="/flight">
               <FontAwesomeIcon icon={faPlane} />
               <span>Flights</span>
+              </Link>
             </div>
             <div className="headerListItem">
               <FontAwesomeIcon icon={faCar} />
               <span>Car rentals</span>
             </div>
-            <div className="headerListItem">
+            {/* <div className="headerListItem">
               <FontAwesomeIcon icon={faBed} />
               <span>Attractions</span>
-            </div>
+            </div> */}
             <div className="headerListItem">
               <FontAwesomeIcon icon={faTaxi} />
               <span>Airport taxis</span>

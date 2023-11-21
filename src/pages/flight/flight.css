@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flight-search-container {
+    width: 90vw;
+    
+    margin: 1px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container-round {
+    display: flex;
+    align-items: center;
+}
+  
+#box {
+    margin-left: -13vw;
+}
+  
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  
+  .search-button-container {
+    text-align: center;
+  }
+  
+.search-button {
+    /* Add any additional styling for your button */
+    display: inline-block;
+    padding: 0.7vw;
+    background-color: rgb(57, 120, 231) ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+  
+.search-results {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .heading {
+    /* Add any styles for the heading if needed */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+ 
+  
+
+  
+li {
+    margin-bottom: 8px;
+}
+  
+#des,#curr{
+  display: inline-block;
+  width: 50%; 
+  box-sizing: border-box;
+  padding: 2px;
+  
+}
+.heading{
+    font-size: large;
+    text-align: center;
+    padding-bottom: 3vh;
+    font-weight: bold;
+}
+
+
+  

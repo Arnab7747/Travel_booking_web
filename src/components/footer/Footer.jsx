@@ -2,50 +2,121 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="fLists">
-        <ul className="fList">
-          <li className="fListItem">Countries</li>
-          <li className="fListItem">Regions</li>
-          <li className="fListItem">Cities</li>
-          <li className="fListItem">Districts</li>
-          <li className="fListItem">Airports</li>
-          <li className="fListItem">Hotels</li>
-        </ul>
-        <ul className="fList">
-          <li className="fListItem">Homes </li>
-          <li className="fListItem">Apartments </li>
-          <li className="fListItem">Resorts </li>
-          <li className="fListItem">Villas</li>
-          <li className="fListItem">Hostels</li>
-          <li className="fListItem">Guest houses</li>
-        </ul>
-        <ul className="fList">
-          <li className="fListItem">Unique places to stay </li>
-          <li className="fListItem">Reviews</li>
-          <li className="fListItem">Unpacked: Travel articles </li>
-          <li className="fListItem">Travel communities </li>
-          <li className="fListItem">Seasonal and holiday deals </li>
-        </ul>
-        <ul className="fList">
-          <li className="fListItem">Car rental </li>
-          <li className="fListItem">Flight Finder</li>
-          <li className="fListItem">Restaurant reservations </li>
-          <li className="fListItem">Travel Agents </li>
-        </ul>
-        <ul className="fList">
-          <li className="fListItem">Curtomer Service</li>
-          <li className="fListItem">Partner Help</li>
-          <li className="fListItem">Careers</li>
-          <li className="fListItem">Sustainability</li>
-          <li className="fListItem">Press center</li>
-          <li className="fListItem">Safety Resource Center</li>
-          <li className="fListItem">Investor relations</li>
-          <li className="fListItem">Terms & conditions</li>
-        </ul>
-      </div>
-      <div className="fText">Copyright © 2022 Lamabooking.</div>
+    <footer >
+  
+  <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+    <div className="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
     </div>
+   
+    <div>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-facebook-f"/>
+      </a>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-twitter"/>
+      </a>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-google"/>
+      </a>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-instagram"/>
+      </a>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-linkedin"/>
+      </a>
+      <a href="/" className="me-4 text-reset">
+        <i className="fab fa-github"/>
+      </a>
+    </div>
+    
+  </section>
+  
+
+  
+  <section className="">
+    <div className="container text-center text-md-start mt-5">
+    
+      <div className="row mt-3">
+        
+        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        
+          <h6 className="text-uppercase fw-bold mb-4">
+            <i className="fas fa-gem me-3"/>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        
+
+        
+        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 className="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="/" className="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">React</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">Laravel</a>
+          </p>
+        </div>
+        
+
+        
+        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 className="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="/" className="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="/" className="text-reset">Help</a>
+          </p>
+        </div>
+        
+
+        
+        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i className="fas fa-home me-3"/> New York, NY 10012, US</p>
+          <p>
+            <i className="fas fa-envelope me-3"/>
+            info@example.com
+          </p>
+          <p><i className="fas fa-phone me-3"/> + 01 234 567 88</p>
+          <p><i className="fas fa-print me-3"/> + 01 234 567 89</p>
+        </div>
+        
+      </div>
+   
+    </div>
+  </section>
+  
+
+
+  
+  
+</footer>
   );
 };
 
